@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bremersee.ldaptive.boot.app;
+package org.bremersee.ldaptive.spring.boot.app;
 
 import static org.bremersee.ldaptive.LdaptiveEntryMapper.createDn;
 import static org.bremersee.ldaptive.LdaptiveEntryMapper.getAttributeValue;

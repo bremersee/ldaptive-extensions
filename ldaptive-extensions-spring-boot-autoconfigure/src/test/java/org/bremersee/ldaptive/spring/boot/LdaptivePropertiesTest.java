@@ -1,4 +1,4 @@
-package org.bremersee.ldaptive.boot;
+package org.bremersee.ldaptive.spring.boot;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.Duration;
 import java.util.UUID;
-import org.bremersee.ldaptive.boot.LdaptiveProperties.SearchValidatorProperties;
+import org.bremersee.ldaptive.spring.boot.LdaptiveProperties.SearchValidatorProperties;
 import org.junit.jupiter.api.Test;
 
 /**

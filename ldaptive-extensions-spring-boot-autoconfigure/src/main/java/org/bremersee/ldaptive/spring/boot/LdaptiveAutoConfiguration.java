@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bremersee.ldaptive.boot;
+package org.bremersee.ldaptive.spring.boot;
 
 import lombok.extern.slf4j.Slf4j;
 import org.bremersee.exception.ServiceException;
