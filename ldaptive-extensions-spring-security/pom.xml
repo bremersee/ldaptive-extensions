@@ -5,15 +5,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>common-ldap-parent</artifactId>
+    <artifactId>ldaptive-extensions-parent</artifactId>
     <groupId>org.bremersee</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>common-ldap-spring-security</artifactId>
+  <artifactId>ldaptive-extensions-spring-security</artifactId>
 
-  <name>Common Ldap Spring Security</name>
-  <description>Common Ldap for Spring Security</description>
+  <name>Ldaptive Extensions Spring Security</name>
+  <description>Ldaptive Extensions for Spring Security</description>
 
   <developers>
     <developer>
@@ -44,7 +44,7 @@
   <dependencies>
     <dependency>
       <groupId>org.bremersee</groupId>
-      <artifactId>common-ldap</artifactId>
+      <artifactId>ldaptive-extensions</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

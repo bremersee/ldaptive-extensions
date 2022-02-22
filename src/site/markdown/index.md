@@ -1,1 +1,1 @@
-# Common Ldap Parent
+# Ldaptive Extensions Parent

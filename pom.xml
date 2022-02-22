@@ -11,24 +11,24 @@
     <relativePath/>
   </parent>
 
-  <artifactId>common-ldap-parent</artifactId>
+  <artifactId>ldaptive-extensions-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Common Ldap Parent Module</name>
-  <description>Common Ldap Project</description>
+  <name>Ldaptive Extensions Parent Module</name>
+  <description>Ldaptive Extensions Project</description>
   <inceptionYear>2022</inceptionYear>
-  <url>https://github.com/bremersee/common-ldap</url>
+  <url>https://github.com/bremersee/ldaptive-extensions</url>
 
   <modules>
-    <module>common-ldap</module>
-    <module>common-ldap-spring-security</module>
-    <module>common-ldap-spring-boot-autoconfigure</module>
-    <module>common-ldap-spring-boot-starter</module>
+    <module>ldaptive-extensions</module>
+    <module>ldaptive-extensions-spring-security</module>
+    <module>ldaptive-extensions-spring-boot-autoconfigure</module>
+    <module>ldaptive-extensions-spring-boot-starter</module>
   </modules>
 
   <properties>
-    <github.repo>common-ldap</github.repo>
+    <github.repo>ldaptive-extensions</github.repo>
     <!--suppress UnresolvedMavenProperty -->
     <gh-pages-staging-dir>${maven.multiModuleProjectDirectory}/target/staging</gh-pages-staging-dir>
 
@@ -62,13 +62,13 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/bremersee/common-ldap</url>
-    <connection>scm:git:git://github.com/bremersee/common-ldap.git</connection>
-    <developerConnection>scm:git:git@github.com:bremersee/common-ldap.git</developerConnection>
+    <url>https://github.com/bremersee/ldaptive-extensions</url>
+    <connection>scm:git:git://github.com/bremersee/ldaptive-extensions.git</connection>
+    <developerConnection>scm:git:git@github.com:bremersee/ldaptive-extensions.git</developerConnection>
   </scm>
 
   <issueManagement>
-    <url>https://github.com/bremersee/common-ldap/issues</url>
+    <url>https://github.com/bremersee/ldaptive-extensions/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -80,7 +80,7 @@
     <site>
       <id>bremersee-sites</id>
       <url>
-        dav:https://nexus.bremersee.org/repository/maven-sites/common-ldap/${project.version}
+        dav:https://nexus.bremersee.org/repository/maven-sites/ldaptive-extensions/${project.version}
       </url>
     </site>
   </distributionManagement>

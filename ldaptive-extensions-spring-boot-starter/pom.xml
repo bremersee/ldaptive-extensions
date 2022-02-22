@@ -3,16 +3,16 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
-    <artifactId>common-ldap-parent</artifactId>
+    <artifactId>ldaptive-extensions-parent</artifactId>
     <groupId>org.bremersee</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>common-ldap-spring-boot-starter</artifactId>
+  <artifactId>ldaptive-extensions-spring-boot-starter</artifactId>
 
-  <name>Common Ldap Spring Boot Starter</name>
-  <description>Spring Boot Starter for Common Ldap.</description>
+  <name>Ldaptive Extensions Spring Boot Starter</name>
+  <description>Spring Boot Starter for Ldaptive Extensions.</description>
 
   <developers>
     <developer>
@@ -52,12 +52,12 @@
 
     <dependency>
       <groupId>org.bremersee</groupId>
-      <artifactId>common-ldap</artifactId>
+      <artifactId>ldaptive-extensions</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>org.bremersee</groupId>
-      <artifactId>common-ldap-spring-boot-autoconfigure</artifactId>
+      <artifactId>ldaptive-extensions-spring-boot-autoconfigure</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

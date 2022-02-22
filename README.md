@@ -1,2 +1,2 @@
-# common-ldap
-Common Ldap Suite
+# ldaptive-extensions
+Ldaptive Extensions Suite

@@ -6,14 +6,14 @@
 
   <parent>
     <groupId>org.bremersee</groupId>
-    <artifactId>common-ldap-parent</artifactId>
+    <artifactId>ldaptive-extensions-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>common-ldap</artifactId>
+  <artifactId>ldaptive-extensions</artifactId>
 
-  <name>Common Ldap</name>
-  <description>Common Ldap</description>
+  <name>Ldaptive Extensions</name>
+  <description>Ldaptive Extensions</description>
 
   <developers>
     <developer>
