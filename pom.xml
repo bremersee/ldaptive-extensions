@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.bremersee</groupId>
+    <artifactId>common-parent</artifactId>
+    <version>2.4.0</version>
+    <relativePath/>
+  </parent>
+
+  <artifactId>common-ldap-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Common Ldap Parent Module</name>
+  <description>Common Ldap Project</description>
+  <inceptionYear>2022</inceptionYear>
+  <url>https://github.com/bremersee/common-ldap</url>
+
+  <modules>
+    <module>common-ldap</module>
+  </modules>
+
+  <properties>
+    <github.repo>common-ldap</github.repo>
+    <!--suppress UnresolvedMavenProperty -->
+    <gh-pages-staging-dir>${maven.multiModuleProjectDirectory}/target/staging</gh-pages-staging-dir>
+
+    <common-autoconfigure.version>0.0.1-SNAPSHOT</common-autoconfigure.version>
+  </properties>
+
+  <developers>
+    <developer>
+      <id>bremersee</id>
+      <name>Christian Bremer</name>
+      <organization>bremersee.org</organization>
+      <organizationUrl>https://bremersee.org</organizationUrl>
+      <email>christian@bremersee.org</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <organization>
+    <name>bremersee.org</name>
+    <url>https://bremersee.org</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/bremersee/common-ldap</url>
+    <connection>scm:git:git://github.com/bremersee/common-ldap.git</connection>
+    <developerConnection>scm:git:git@github.com:bremersee/common-ldap.git</developerConnection>
+  </scm>
+
+  <issueManagement>
+    <url>https://github.com/bremersee/common-ldap/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <site>
+      <id>bremersee-sites</id>
+      <url>
+        dav:https://nexus.bremersee.org/repository/maven-sites/common-ldap/${project.version}
+      </url>
+    </site>
+  </distributionManagement>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.bremersee</groupId>
+        <artifactId>common-spring-boot-autoconfigure</artifactId>
+        <version>${common-autoconfigure.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
