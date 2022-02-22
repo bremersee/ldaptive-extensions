@@ -23,6 +23,7 @@
   <modules>
     <module>common-ldap</module>
     <module>common-ldap-spring-security</module>
+    <module>common-ldap-spring-boot-autoconfigure</module>
   </modules>
 
   <properties>
