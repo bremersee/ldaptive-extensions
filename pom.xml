@@ -29,7 +29,7 @@
     <!--suppress UnresolvedMavenProperty -->
     <gh-pages-staging-dir>${maven.multiModuleProjectDirectory}/target/staging</gh-pages-staging-dir>
 
-    <common-autoconfigure.version>0.0.1-SNAPSHOT</common-autoconfigure.version>
+    <common-exception.version>0.0.1-SNAPSHOT</common-exception.version>
   </properties>
 
   <developers>
@@ -86,8 +86,8 @@
     <dependencies>
       <dependency>
         <groupId>org.bremersee</groupId>
-        <artifactId>common-spring-boot-autoconfigure</artifactId>
-        <version>${common-autoconfigure.version}</version>
+        <artifactId>common-exception</artifactId>
+        <version>${common-exception.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
