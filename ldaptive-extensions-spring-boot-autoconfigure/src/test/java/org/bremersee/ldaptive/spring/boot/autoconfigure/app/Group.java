@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bremersee.ldaptive.spring.boot.app;
+package org.bremersee.ldaptive.spring.boot.autoconfigure.app;
 
 import java.util.Set;
 import lombok.Data;

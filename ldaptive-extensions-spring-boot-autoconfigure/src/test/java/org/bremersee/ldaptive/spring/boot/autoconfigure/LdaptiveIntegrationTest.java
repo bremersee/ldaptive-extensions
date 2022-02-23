@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.bremersee.ldaptive.spring.boot;
+package org.bremersee.ldaptive.spring.boot.autoconfigure;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Collection;
 import lombok.extern.slf4j.Slf4j;
 import org.bremersee.ldaptive.LdaptiveTemplate;
-import org.bremersee.ldaptive.spring.boot.app.GroupMapper;
-import org.bremersee.ldaptive.spring.boot.app.PersonMapper;
-import org.bremersee.ldaptive.spring.boot.app.TestConfiguration;
+import org.bremersee.ldaptive.spring.boot.autoconfigure.app.GroupMapper;
+import org.bremersee.ldaptive.spring.boot.autoconfigure.app.PersonMapper;
+import org.bremersee.ldaptive.spring.boot.autoconfigure.app.TestConfiguration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.ldaptive.LdapEntry;

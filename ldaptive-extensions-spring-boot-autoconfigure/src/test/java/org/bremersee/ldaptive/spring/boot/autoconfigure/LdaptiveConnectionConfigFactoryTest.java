@@ -1,4 +1,4 @@
-package org.bremersee.ldaptive.spring.boot;
+package org.bremersee.ldaptive.spring.boot.autoconfigure;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

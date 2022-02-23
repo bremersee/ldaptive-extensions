@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bremersee.ldaptive.spring.boot;
+package org.bremersee.ldaptive.spring.boot.autoconfigure;
 
 import java.time.Duration;
 import java.util.ArrayList;
